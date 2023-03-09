@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    margin: 1px;
+}
+
+.container {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.70 1 0px;
+}
+
+.content {
+    display: flex;
+    flex: 1 1 0px;
+    background-color: white;
+}
+
+img {
+width: 100%;
+max-height: 800px;
+}
