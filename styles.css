@@ -74,8 +74,19 @@ img {
 
 .field {
     padding: 5%;
-    margin: auto;
     display: flex;
     flex-direction: column;
     max-width: 30%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 2% 5% 2% 5%;
+    margin: 5% 60% 0% 10%;
+    border: 0px;
+    border-radius: 10px;
 }
