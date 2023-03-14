@@ -25,35 +25,35 @@
             </div>
             <div class="form">
                 <p>Let's do this!</p>
-                    <form class="fields">
+                    <form class="fields" id="my-form">
                         <div class="field">
                             <label for="first_name">First Name</label>
-                            <input type="text" id="first_name">
+                            <input type="text" id="first_name" required>
                         </div>
                         <div class="field">
                             <label for="last_name">Last Name</label>
-                            <input type="text" id="last_name">
+                            <input type="text" id="last_name" required>
                         </div>
                         <div class="field">
                             <label for="email">email</label>
-                            <input type="email" id="first_name">
+                            <input type="email" id="first_name" required>
                         </div>
                         <div class="field">
                             <label for="phone_number">Phone Number</label>
-                            <input type="number" id="phone_number">
+                            <input type="number" id="phone_number" required>
                         </div>
                         <div class="field">
                             <label for="password">Password</label>
-                            <input type="password" id="password">
+                            <input type="password" id="password" required>
                         </div>
                         <div class="field">
                             <label for="password">Confirm Password</label>
-                            <input type="password" id="password">
+                            <input type="password" id="password" required>
                         </div>
                     </form>
             </div>
             <div class="footer">
-                <button>Create Account</button>
+                <button type="submit" form="my-form">Create Account</button>
                 <p>Already have an account? Log in</p>
             </div>
         </div>
