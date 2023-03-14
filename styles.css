@@ -21,6 +21,8 @@ body {
     align-items: center;
     flex: 0.5 1 0px;
     text-align: center;
+    background-image: url(./images/meric-dagli-jlMSoEutc_I-unsplash.jpg);
+    background-size: cover;
 }
 
 .imgCred {
