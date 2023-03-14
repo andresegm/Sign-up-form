@@ -6,20 +6,27 @@
 body {
     background-color: black;
     margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
 }
 
 .side-hero {
     display: flex;
     position: relative;
+    width: 60vw;
+    min-width: 345px;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    flex: 0.5 1 0px;
+    flex: 0.7 1 0px;
     text-align: center;
     background-image: url(./images/meric-dagli-jlMSoEutc_I-unsplash.jpg);
     background-size: cover;
@@ -48,19 +55,19 @@ body {
 }
 
 .logo {
-    max-height: 50px;
+    max-height: 90px;
     padding: 0% 5% 0% 5%    ;
 }
-
-img {
-    max-height: 840px;
-    }
 
 .content {
     display: flex;
     flex: 1 1 0px;
+    position: relative;
     background-color: white;
     flex-direction: column;
+    width: 60vw;
+    min-width: 345px;
+    height: 100vh;
 }
 
 .info, .form, .footer {
@@ -78,6 +85,11 @@ img {
     background-color: rgb(251, 249, 247);
 }
 
+.banner p {
+    color: aliceblue;
+    font-weight: 600;
+}
+
 .info p {
     padding: 20% 5% 0% 5%;
 }
@@ -88,6 +100,7 @@ img {
 
 .footer p {
     padding: 5% 5% 0% 5%;
+    margin: 0;
 }
 
 .fields {
