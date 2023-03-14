@@ -16,6 +16,7 @@ body {
 
 .image {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     flex: 0.5 1 0px;
@@ -29,6 +30,24 @@ body {
     color: rgb(196, 196, 196);
     position: absolute;
     top: 1%;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0px;
+    text-align: center;
+    background-color: rgba(126, 126, 126, 0.244);
+    height: fit-content;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+.logo {
+    max-height: 50px;
+    padding: 0% 5% 0% 5%    ;
 }
 
 img {
