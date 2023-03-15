@@ -70,6 +70,7 @@ body {
 .content {
     display: flex;
     flex: 1 1 0px;
+    flex-wrap: wrap;
     position: relative;
     background-color: white;
     flex-direction: column;
@@ -81,10 +82,14 @@ body {
 .info, .form, .footer {
     display: flex;
     flex: 1 1 0px;
+    flex-wrap: wrap;
+
 }
 
 .form {
     flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
 }
 
 .info, .footer {
