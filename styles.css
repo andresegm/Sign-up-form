@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+@font-face {
+    font-family: norse-font;
+    src: url(./font/norse-bold-webfont.woff);
+  }
+
 .wrapper, html, body {
+    font-family: 'Roboto', sans-serif;
     height: 100%;
     margin: 0;
 }
@@ -55,7 +63,7 @@ body {
 }
 
 .logo {
-    max-height: 90px;
+    max-height: 120px;
     padding: 0% 5% 0% 5%    ;
 }
 
@@ -80,13 +88,15 @@ body {
 }
 
 .info, .footer {
-    font-size: large;
+    font-size: larger;
     font-weight: 450;
     background-color: rgb(251, 249, 247);
 }
 
 .banner p {
+    font-family: norse-font;
     color: aliceblue;
+    font-size: 50px;
     font-weight: 600;
 }
 
