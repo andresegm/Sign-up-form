@@ -1,8 +1,12 @@
-function Validate() {
-const pass = document.querySelector('.pass').value;
-const passC = document.querySelector('.passC').value;
 
-    if (pass !== passC) {
-        console.log('passwords do not match');
-    }
-}
+const pass = document.querySelector('.pass');
+const passC = document.querySelector('.passC');
+const error = document.querySelector('.error');
+
+passC.addEventListener("input", function (event) {
+    if (pass.value !== passC.value) {
+          error.textContent = 'Passwords do not match';
+        } else {
+          error.textContent = '';
+            }
+    }); 

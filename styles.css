@@ -160,3 +160,10 @@ input {
 input:valid {
     border-color: #308f9f;
   }
+
+  .error {
+    font-family: 'Roboto', sans-serif;
+    font-size: .7rem;
+    color: rgb(255, 69, 100);
+    position: relative;
+  }
