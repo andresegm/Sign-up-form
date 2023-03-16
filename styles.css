@@ -1,10 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 
 @font-face {
     font-family: norse-font;
     src: url(./font/norse-bold-webfont.woff);
   }
-
+  
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: none; }
+  a {
+    font-weight: bolder;
+    color: #0064a6;
+  }
 .wrapper, html, body {
     font-family: 'Roboto', sans-serif;
     height: 100%;
